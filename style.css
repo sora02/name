@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    background-color: grey;
+}
+#title:hover{
+    background-color: darkgrey;
+    letter-spacing: 4px;
+    transition: all 0.4s ease-in;
+    text-decoration: none;
+}
+#intro:hover{
+    background-color: darkgrey;
+    letter-spacing: 4px;
+    transition: all 0.4s ease-in;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+#profile {
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+}
+img {
+    width: 180px;
+    height: 180x;
+}
+#profile img:hover {
+    width: 180;
+    height: 180px;
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+main {
+    padding: 32px;
+}
+#name {
+    font-size: 48px;
+    font-family: "Gothic A1", sans-serif;
+    margin: 20px 0;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#human {
+    font-size: 32px;
+    font-family: "Gothic A1", sans-serif;
+    margin: 30px 0 10px 0;
+}
+#skills {
+    font-size: 32px;
+    font-family: "Gothic A1", sans-serif;
+    margin: 30px 0 10px 0;
+}
+footer {
+    padding: 40px;
+    background-color: lightgray;
+}
