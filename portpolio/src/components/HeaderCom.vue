@@ -1,12 +1,16 @@
 <template>
-  <header>
-      <nav>
-        <ul>
-          <li><a class="menu-btn" href="#name">프로필</a></li>
-          <li><a class="menu-btn" href="#cv">상세 내용</a></li>
-        </ul>
-      </nav>
-  </header>
+  <nav>
+    <div class="container">
+      <a href="" class="navbar-name">BBaek</a>
+    </div>
+    <ul>
+      <li>Home</li>
+      <li>About Me</li>
+      <li>Education</li>
+      <li>Projects</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -17,18 +21,24 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.navbar-name {
+  font-weight: 900;
+  font-size: 26px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+  list-style: none;
+  float: left;
+  padding: 1.5rem;
+  font-size: 20px;
 }
 </style>

@@ -1,14 +1,19 @@
 <template>
   <HeaderCom />
+  <HomeCom />
+  <AboutMe />
 </template>
 
 <script>
 import HeaderCom from './components/HeaderCom.vue'
-
+import AboutMe from './components/AboutMe.vue'
+import HomeCom from './components/HomeCom.vue'
 export default {
   name: 'App',
   components: {
-    HeaderCom
+    HeaderCom,
+    AboutMe,
+    HomeCom,
   }
 }
 </script>
@@ -21,5 +26,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
 }
 </style>
