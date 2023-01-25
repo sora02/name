@@ -1,6 +1,5 @@
 <template>
     <div class="container">
-      <img src='../assets/profile.jpg' alt="">
     </div>
 </template>
 
@@ -8,19 +7,26 @@
 export default {
   name: 'AboutMe',
   setup() {
-    let height = window.innerHeight;
-    let scrooll = window.scrollY;
-    console.log(height, scrooll)
+    //let height = window.innerHeight;
+    //let scrooll = window.scrollY;
   }
 }
 </script>
 
 <style scoped>
-img {
+.container {
+  display: flex;
+  justify-self: center;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 10% 17%;
+  position: relative;
+}
+.profile {
   background-size: cover;
   border-radius: 70%;
   width: 400px;
   height: 400px;
-  opacity: 0%;
 }
+
 </style>
