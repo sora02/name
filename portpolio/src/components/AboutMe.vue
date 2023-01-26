@@ -10,7 +10,15 @@
       </div>
       <div class="text-box">
         <img class="profile" src="../assets/profile.jpg" alt="">
-        <span class="text">안녕하세요 프론트엔드 개발자 백소라입니다.</span>
+        <span class="text">안녕하세요 프론트엔드 개발자 백소라입니다.
+          <p>
+            저는 제가 목표로 삼은 일은 시간이 걸리더라도 반드시 해냅니다. 이런 제게 개발은 좋은 목표가 되어주었습니다.
+          </p>
+          <p>
+            좋은 개발자가 되겠다는 목표를 가지고 현재 달리고 있습니다. 포기하지 않고 느리더라도 꾸준하게 그리고 탄탄하게 
+            노력하겠습니다.
+          </p>
+        </span>
       </div>
     </div>
 </template>
@@ -59,8 +67,8 @@ li {
 }
 .profile {
   border-radius: 70%;
-  width: 50%;
-  height: 50%
+  width: 45%;
+  height: 45%
 }
 .text {
   font-size: 20px;

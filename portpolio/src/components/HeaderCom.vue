@@ -41,4 +41,8 @@ li {
   padding: 1.5rem;
   font-size: 20px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 </style>
