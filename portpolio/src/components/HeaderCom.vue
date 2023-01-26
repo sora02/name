@@ -1,14 +1,14 @@
 <template>
   <nav>
     <div class="container">
-      <a href="" class="navbar-name">BBaek</a>
+      <router-link to="/" class="navbar-name">BBaek</router-link>
     </div>
     <ul>
-      <li>Home</li>
-      <li>About</li>
-      <li>Education</li>
-      <li>Projects</li>
-      <li>Contact</li>
+      <router-link to="/"><li>Home</li></router-link>
+      <router-link to="/about"><li>About</li></router-link>
+      <router-link to="/education"><li>Education</li></router-link>
+      <router-link to="/project"><li>Project</li></router-link>
+      <router-link to="/contact"><li>contact</li></router-link>
     </ul>
   </nav>
 </template>

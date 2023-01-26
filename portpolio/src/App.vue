@@ -1,19 +1,14 @@
 <template>
   <HeaderCom />
-  <HomeCom />
-  <AboutMe />
+  <router-view />
 </template>
 
 <script>
 import HeaderCom from './components/HeaderCom.vue'
-import AboutMe from './components/AboutMe.vue'
-import HomeCom from './components/HomeCom.vue'
 export default {
   name: 'App',
   components: {
     HeaderCom,
-    AboutMe,
-    HomeCom,
   }
 }
 </script>
